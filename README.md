@@ -33,7 +33,8 @@ An athletic activity requiring skill or physical prowess and often of a competit
 
 ***
 ## Quotes i Like
-> "I was never afraid of failure; for I would sooner fail than not be among the greatest."_JOHN KEATS_
+> "I was never afraid of failure; for I would sooner fail than not be   among the greatest."_JOHN KEATS_
+
 > "You know, Hobbes, some days even my lucky rocketship underpants don't help.” _Bill Watterson_ 
 
 
