@@ -19,7 +19,18 @@ The Nearest Airport to kfc is kansas city  airport(MCI)
 ***
 ![About prudhvidhar](Aboutme.md)
 
+***
+## Sports Recommend
+An athletic activity requiring skill or physical prowess and often of a competitive nature, as  cricket,football, baseball,basketball, tennis, golf, bowling, wrestling, boxing, hunting, fishing, etc
+## Table showing the sports details
 
+|Name of the sport| Location | AMOUNT Needed for Equimpent|
+| ---  | ---   | ---   |
+|cricket|Hyderabad|$200|
+|Football|Brazil|$500|
+|Tennis|Australia|$700|
+|Basketball|u.s|$2000|
+***
 
 
 
