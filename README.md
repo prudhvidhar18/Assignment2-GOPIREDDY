@@ -36,6 +36,43 @@ An athletic activity requiring skill or physical prowess and often of a competit
 > "I was never afraid of failure; for I would sooner fail than not be   among the greatest."_JOHN KEATS_
 
 > "You know, Hobbes, some days even my lucky rocketship underpants don't help.” _Bill Watterson_ 
+***
+
+## Code Fencing
+
+> Sqrt Decomposition - Using the square-root decomposition technique, we can reduce the time complexity of several types of problems from O(n) to O(Sqrt(n)). I will start with an example. Let’s say we have an integer array and we have to perform several operations on them. The operations can be of two types. The first type is, we have the find the sum of all the integers between index l to r. The second type is, we have to update the value of index i. Some of you may already know how to solve this using a segment tree or binary search tree
+<https://medium.com/@shafaet.csedu/square-root-decomposition-ddc890609a43>
+
+```
+// input data
+int n;
+vector<int> a (n);
+
+// preprocessing
+int len = (int) sqrt (n + .0) + 1; // size of the block and the number of blocks
+vector<int> b (len);
+for (int i=0; i<n; ++i)
+    b[i / len] += a[i];
+
+// answering the queries
+for (;;) {
+    int l, r;
+  // read input data for the next query
+    int sum = 0;
+    for (int i=l; i<=r; )
+        if (i % len == 0 && i + len - 1 <= r) {
+            // if the whole block starting at i belongs to [l, r]
+            sum += b[i / len];
+            i += len;
+        }
+        else {
+            sum += a[i];
+            ++i;
+        }
+}
+```
+<https://cp-algorithms.com/data_structures/sqrt_decomposition.html>
+
 
 
 
